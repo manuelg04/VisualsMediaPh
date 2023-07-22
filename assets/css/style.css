@@ -1096,3 +1096,48 @@ section .container {
     transform: translateX(-50%);
   }
 }
+.info-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.info-box form input[type="text"], 
+.info-box form input[type="email"], 
+.info-box form input[type="tel"], 
+.info-box form select, 
+.info-box form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.info-box form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-box form button:hover {
+  background-color: #0056b3;
+}
+.info-box form h3 {
+  text-align: center;
+  width: 100%;
+}
+
+.info-box form label {
+  color: #008000; /* Cambia a cualquier color hexadecimal que prefieras */
+}

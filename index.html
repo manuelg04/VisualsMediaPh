@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -19,7 +20,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Personal Portfolio</title>
+    <title>Visuals Media Col</title>
     <meta content="" name="descriptison" />
     <meta content="" name="keywords" />
 
@@ -228,7 +229,7 @@
     </section>
     <!-- End About Section -->
 
-    <!-- ======= Education Section ======= -->
+  
     <!-- ======= Gallery Section ======= -->
 <!-- ======= Gallery Section ======= -->
 <section id="education" class="services">
@@ -743,6 +744,45 @@
               <p>+1 786 236 1628</p>
             </div>
           </div>
+          <div class="row mt-5">
+            <div class="col-md-12 d-flex align-items-stretch">
+                <div class="info-box">
+                  <form id="contactForm">
+                        <h3>Formulario de Contacto</h3>
+                        <label for="name">Nombres y Apellidos:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="postal_code">Código Postal:</label>
+                        <input type="text" id="postal_code" name="postal_code">
+    
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone">
+    
+                        <label for="interest">¿Qué te gustaría desarrollar?</label>
+                        <select id="interest" name="interest">
+                            <option value="birthday">Fiesta de 15 años/cumpleaños</option>
+                            <option value="personal_event">Fotografía para evento personal</option>
+                            <option value="social_media">Fotografía para redes sociales</option>
+                            <option value="business_photo">Fotografía para negocio</option>
+                            <option value="eyebrow_design">Diseño de cejas: ojilla/cera</option>
+                            <option value="social_makeup">Maquillaje social</option>
+                            <option value="bride_makeup">Maquillaje de novia</option>
+                            <option value="15_years_makeup">Maquillaje de 15 años</option>
+                            <option value="artistic_makeup">Maquillaje artístico</option>
+                        </select>
+    
+                        <label for="notes">Observaciones:</label>
+                        <textarea id="notes" name="notes"></textarea>
+    
+                        <button type="submit">Quiero conocer precios</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
         </div>
         <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
       </div>
@@ -776,5 +816,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
+
   </body>
 </html>
