@@ -24,7 +24,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   };
 
   // Enviar el correo electrónico a través de EmailJS
-  emailjs.send('service_thwam4k', 'template_qc3ymrm', data) // Reemplaza 'template_qc3ymrm' con la ID de tu plantilla de EmailJS
+  emailjs.send('service_7pidttu', 'template_qc3ymrm', data) // Reemplaza 'template_qc3ymrm' con la ID de tu plantilla de EmailJS
     .then(function(response) {
       console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
